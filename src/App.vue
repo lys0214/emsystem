@@ -4,12 +4,21 @@
  * @Author: LiYansheng
  * @Date: 2022-03-13 13:38:59
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-13 13:55:11
+ * @LastEditTime: 2022-03-13 16:15:52
+-->
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: LiYansheng
+ * @Date: 2022-03-13 13:38:59
+ * @LastEditors: CoderXZ
+ * @LastEditTime: 2022-03-13 14:03:30
 -->
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <h1>毕业设计项目启动</h1>
+    <router-view></router-view>
   </div>
 </template>
 
