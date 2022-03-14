@@ -4,7 +4,7 @@
  * @Author: LiYansheng
  * @Date: 2022-03-13 20:47:12
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-13 21:34:06
+ * @LastEditTime: 2022-03-14 15:40:56
  */
 
 import axios from "axios"
@@ -15,6 +15,7 @@ const service=axios.create({
     /* headers:{
         "content-type": "application/json"
     } */
+    
 })
 
 export default service
