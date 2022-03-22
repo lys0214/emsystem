@@ -4,7 +4,7 @@
  * @Author: LiYansheng
  * @Date: 2022-03-13 13:38:59
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-13 16:15:52
+ * @LastEditTime: 2022-03-21 21:18:47
 -->
 <!--
  * @Descripttion: 
@@ -16,8 +16,6 @@
 -->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <h1>毕业设计项目启动</h1>
     <router-view></router-view>
   </div>
 </template>
@@ -30,15 +28,8 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
-  /* 渐变色背景与文字实现 */
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: linear-gradient(135deg, rgb(230, 32, 32), rgb(7, 42, 132));
+  margin-top: 0;
+
 }
 </style>

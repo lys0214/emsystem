@@ -4,7 +4,7 @@
  * @Author: LiYansheng
  * @Date: 2022-03-13 16:13:10
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-13 21:28:12
+ * @LastEditTime: 2022-03-21 22:01:03
 -->
 <template>
   <div>
@@ -12,6 +12,9 @@
     <el-empty></el-empty>
     添加一个分支
     {{tags}}
+    Scroll down to see the bottom-right button.
+    
+    <el-backtop target=".page-component__scroll .el-scrollbar__wrap"></el-backtop>
   </div>
 </template>
 

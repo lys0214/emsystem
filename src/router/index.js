@@ -4,11 +4,14 @@
  * @Author: LiYansheng
  * @Date: 2022-03-13 15:55:03
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-13 16:17:56
+ * @LastEditTime: 2022-03-22 21:08:26
  */
 import Vue from "vue";
 import Router from "vue-router";
 import test from '@/components/test'
+import Login from '@/view/Login'
+import Home from '@/view/Home'
+import Sother from '@/components/student/Sother'
 
 Vue.use(Router)
 
@@ -19,6 +22,22 @@ const router=new Router({
             //这里写路由配置
             path:'/test',
             component:test
+        },
+        {
+            //这里写路由配置
+            path:'/login',
+            component:Login
+        },
+        {
+            //这里写路由配置
+            path:'/home',
+            component:Home,
+            children:[
+                {
+                    path:'/other',
+                    component:Sother
+                }
+            ]
         },
         
     ]
