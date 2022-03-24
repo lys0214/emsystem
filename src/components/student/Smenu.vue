@@ -4,7 +4,7 @@
  * @Author: LiYansheng
  * @Date: 2022-03-22 15:19:10
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-22 21:08:46
+ * @LastEditTime: 2022-03-24 20:32:18
 -->
 <template>
   <el-menu
@@ -13,7 +13,7 @@
     text-color="#fff"
     active-text-color="#ffd04b"
     @select="handleSelect"
-    router="true"
+    :router="true"
   >
     <el-menu-item index="1">基本信息</el-menu-item>
     <el-menu-item index="4">个人档案</el-menu-item>

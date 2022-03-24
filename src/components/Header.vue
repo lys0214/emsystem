@@ -4,19 +4,18 @@
  * @Author: LiYansheng
  * @Date: 2022-03-22 13:43:21
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-22 21:18:48
+ * @LastEditTime: 2022-03-24 21:23:13
 -->
 <template>
   
     <el-row>
-      <el-col :span="3">
+      <el-col :span="3" :offset="1">
         <!--logo -->
-        <el-image :src="logoUrl" fit="fit"></el-image>
+        <el-image :src="logoUrl" :fit="fit" style="height:60px"></el-image>
       </el-col>
-      <el-col :span="5" :offset="15">
+      <el-col :span="2" :offset="17">
         <div id="user">
           <el-avatar :src="avartarUrl" />
-          nihao
         </div>
       </el-col>
     </el-row>
@@ -37,5 +36,8 @@ export default {
 <style>
     #user{
         margin-top: 10px;
+    }
+    .el-image{
+      height: 50%;
     }
 </style>

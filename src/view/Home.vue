@@ -4,14 +4,12 @@
  * @Author: LiYansheng
  * @Date: 2022-03-21 15:56:05
  * @LastEditors: CoderXZ
- * @LastEditTime: 2022-03-22 21:10:04
+ * @LastEditTime: 2022-03-24 20:48:14
 -->
 <template>
   <el-container>
     <el-header>
-      <el-container>
         <Header></Header>
-      </el-container>
     </el-header>
     <el-container>
       <el-aside width="200px">
